@@ -1,8 +1,18 @@
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+
 import Image from 'next/image';
+
 import deved from '../public/dev-ed-wave.png';
+import design from '../public/design.png';
+import code from '../public/code.png';
+import web1 from '../public/web1.png';
+import web2 from '../public/web2.png';
+import web3 from '../public/web3.png';
+import web4 from '../public/web4.png';
+import web5 from '../public/web5.png';
+import web6 from '../public/web6.png';
 
 export default function Home() {
   return (
@@ -27,7 +37,7 @@ export default function Home() {
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
                   href='#'
                 >
-                  Resume
+                  Resumo
                 </a>
               </li>
             </ul>
@@ -36,7 +46,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Rodrigo Silva</h2>
             <h3 className='text-2xl py-2'>Desenvolvedor Web e Mobile</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>Amante de tecnologia e suas possibilidades, busco constantemente aprender e aprimorar minhas Skills para poder solucionar problemas e oportunidades. Vamos trabalhar juntos?</p>
+            <p className='text-base py-5 leading-8 text-gray-800'>Amante de tecnologia e suas possibilidades, busco constantemente aprender e aprimorar minhas Skills para poder solucionar problemas e oportunidades. Vamos trabalhar juntos?</p>
           </div>
 
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -49,6 +59,57 @@ export default function Home() {
             <Image src={deved} layout='fill' objectFit='cover' alt='Ilustraçao cartonizada de Rodrigo' />
           </div>
 
+        </section>
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Projetos</h3>
+            <p className='text-base py-2 leading-8 text-gray-800'>
+              Alguns projetos que realizei visando adquirir experiencia em algumas tecnologias e posteriormente colocando-as em prática.
+            </p>
+          </div>
+
+          <div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={design} width={100} height={100} alt='representação de uma paisagem' />
+              <h3 className='text-lg font-medium pt-8 pb-2'>Design</h3>
+              <p className='py-2'>Transformamos sua ideia em um design elegante e atual.</p>
+              <h4 className='py-4 text-teal-600'>Ferramentas que eu uso</h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Figma</p>
+            </div>
+
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={code} width={100} height={100} alt='representação de hashtag' />
+              <h3 className='text-lg font-medium pt-8 pb-2'>Códigos</h3>
+              <p className='py-2'>Procuro sempre empregar as tecnologias mais atuais e fomentadas na comunidade.</p>
+              <h4 className='py-4 text-teal-600'>Tecnologias que eu uso</h4>
+              <p className='text-gray-800 py-1'>HTML | CSS | JavaScript</p>
+              <p className='text-gray-800 py-1'>TypeScript</p>
+              <p className='text-gray-800 py-1'>React JS</p>
+              <p className='text-gray-800 py-1'>React Native</p>
+              <p className='text-gray-800 py-1'>Tailwind CSS</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Portfolio</h3>
+            <p className='text-base'>
+              Estes são alguns dos meus projetos, utilizados tanto para estudo quanto para <span className='text-teal-500'>Freelance</span>.
+            </p>
+          </div>
+          <div>
+            <div>
+              <Image src={web1} alt='imagem referente a um projeto' />
+            </div>
+            <div>
+              <Image src={web2} alt='imagem referente a um projeto' />
+            </div>
+            <div>
+              <Image src={web3} alt='imagem referente a um projeto' />
+            </div>
+          </div>
         </section>
       </main>
     </div>
