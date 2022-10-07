@@ -186,7 +186,9 @@ export default function Home() {
         <footer>
 
           <ScrollToTop
-            className='flex text-center justify-center items-center '
+            color='white'
+            style={{ right: 30, backgroundColor: '#14b8a6' }}
+            className='flex text-center justify-center items-center'
           />
 
           <div className='h-40 w-full bg-gray-200 rounded-t-xl mt-10'>
