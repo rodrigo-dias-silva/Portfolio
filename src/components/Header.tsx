@@ -7,10 +7,10 @@ export default function Header() {
         <Link to="/" className="hover:animate-pulse">Rodrigo Dev</Link>
       </div>
       <ul className="flex md:w-96 w-full justify-between gap-5 md:text-lg font-thin md:font-normal transition">
-        <li><Link to="/" className="p-2 items-center justify-center hover:border-b-2 hover:border-cyan-600 hover:text-cyan-600">Início</Link></li>
-        <li><Link to="/#about" className="p-2 items-center justify-center hover:border-b-2 hover:border-cyan-600 hover:text-cyan-600">Sobre</Link></li>
-        <li><Link to="/projects" className="p-2 items-center justify-center hover:border-b-2 hover:border-cyan-600 hover:text-cyan-600">Projetos</Link></li>
-        <li><Link to="/#contact" className="p-2 items-center justify-center hover:border-b-2 hover:border-cyan-600 hover:text-cyan-600">Contato</Link></li>
+        <li><a href="/" className="p-2 items-center justify-center hover:border-b-2 hover:border-cyan-600 hover:text-cyan-600">Início</a></li>
+        <li><a href="/#about" className="p-2 items-center justify-center hover:border-b-2 hover:border-cyan-600 hover:text-cyan-600">Sobre</a></li>
+        <li><a href="/projects" className="p-2 items-center justify-center hover:border-b-2 hover:border-cyan-600 hover:text-cyan-600">Projetos</a></li>
+        <li><a href="/#contact" className="p-2 items-center justify-center hover:border-b-2 hover:border-cyan-600 hover:text-cyan-600">Contato</a></li>
       </ul>
     </div>
   )
