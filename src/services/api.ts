@@ -4,6 +4,7 @@ import dgLinks from '../assets/imgCards/dgLinks.jpg'
 import memoryGame from '../assets/imgCards/memoryGame.jpg'
 import pokedex from '../assets/imgCards/pokedex.jpg'
 import buscadorCEP from '../assets/imgCards/buscadorCEP.png'
+import portfolio from '../assets/imgCards/portfolio.png'
 
 export const ProjectSectionApi = [
   {
@@ -51,5 +52,10 @@ export const api = [
     "id": 603855043,
     "name": "Buscador de CEP",
     "img": buscadorCEP
+  },
+  {
+    "id": 605394195,
+    "name": "Portfólio",
+    "img": portfolio
   },
 ]
