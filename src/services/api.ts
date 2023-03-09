@@ -5,6 +5,7 @@ import memoryGame from '../assets/imgCards/memoryGame.jpg'
 import pokedex from '../assets/imgCards/pokedex.jpg'
 import buscadorCEP from '../assets/imgCards/buscadorCEP.png'
 import portfolio from '../assets/imgCards/portfolio.png'
+import dgGrupos from '../assets/imgCards/dgGrupos.png'
 
 export const ProjectSectionApi = [
   {
@@ -57,5 +58,10 @@ export const api = [
     "id": 605394195,
     "name": "Portfólio",
     "img": portfolio
+  },
+  {
+    "id": 611906493,
+    "name": "DgGrupos",
+    "img": dgGrupos
   },
 ]
