@@ -12,7 +12,7 @@ export const ProjectSectionApi = [
     id: 602057987,
     project: 'DG Links',
     description: 'DG Links é uma plataforma completa para agregar os links do user. A aplicação conta com página de login, admin para personalizar os links e página de perfil para personalização do avatar e nome de exibição.',
-    linkRepo: 'https://github.com/rodrigo-c-dias-silva/dg-link',
+    linkRepo: 'https://github.com/rodrigo-c-dias-silva/dg-links',
     linkOnline: 'https://dglinks.vercel.app/'
   },
   {
